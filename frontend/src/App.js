@@ -305,7 +305,7 @@ function App() {
                   {result.questions.map((q, index) => (
                     <div key={index} className="question-item">
                       <span className="question-type">{q.type}</span>
-                      <span>{q.question}</span>
+                      <span className="question-text">{q.question}</span>
                     </div>
                   ))}
                 </div>
